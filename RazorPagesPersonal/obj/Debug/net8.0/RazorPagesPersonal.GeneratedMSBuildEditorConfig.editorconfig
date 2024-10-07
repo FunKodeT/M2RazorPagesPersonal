@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPagesPersonal
+build_property.RootNamespace = RazorPagesPersonal
+build_property.ProjectDir = C:\Users\coote\Documents\Coding\CourseWork\7_TESD1440_C-Sharp_Programming_I\M2\P4\RazorPagesPersonal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\coote\Documents\Coding\CourseWork\7_TESD1440_C-Sharp_Programming_I\M2\P4\RazorPagesPersonal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Predictions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZGljdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Predictions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZGljdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Predictions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZGljdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Predictions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZGljdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Predictions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZGljdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/coote/Documents/Coding/CourseWork/7_TESD1440_C-Sharp_Programming_I/M2/P4/RazorPagesPersonal/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rwou5uq91k
