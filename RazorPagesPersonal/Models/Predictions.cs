@@ -7,15 +7,18 @@ namespace RazorPagesPersonal.Models
     {
         public int Id { get; set; }
 
+        [Display(Name = "Created On")]
         [DataType(DataType.Date)]
-        public string? Created {  get; set; }
+        public DateTime? Created {  get; set; }
         
         public string? Question { get; set; }
 
+        [Display(Name = "Prediciton")]
         public string? Predictions {  get; set; }
 
         public bool? True { get; set; }
 
+        [Display(Name = "Completed Date")]
         public DateTime? WhenComplete { get; set; }
     }
 }

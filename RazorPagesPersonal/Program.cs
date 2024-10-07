@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using RazorPagesPersonal.Data;
+using RazorPagesPersonal.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,6 +11,13 @@ builder.Services.AddDbContext<RazorPagesPersonalContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesPersonalContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesPersonalContext' not found.")));
 
 var app = builder.Build();
+
+// Seed DB if DB does not contain any existing data;
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
