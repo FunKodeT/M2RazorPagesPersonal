@@ -13,31 +13,21 @@
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Predictions.Created" class="control-label"></label>
-                <input asp-for="Predictions.Created" class="form-control" />
-                <span asp-validation-for="Predictions.Created" class="text-danger"></span>
+            <div>
+                <label>
+                    @DateTime.Now
+                </label>
             </div>
             <div class="form-group">
                 <label asp-for="Predictions.Question" class="control-label"></label>
                 <input asp-for="Predictions.Question" class="form-control" />
                 <span asp-validation-for="Predictions.Question" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label asp-for="Predictions.Predictions" class="control-label"></label>
                 <input asp-for="Predictions.Predictions" class="form-control" />
                 <span asp-validation-for="Predictions.Predictions" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Predictions.True" class="control-label"></label>
-                <input asp-for="Predictions.True" class="form-control" />
-                <span asp-validation-for="Predictions.True" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Predictions.WhenComplete" class="control-label"></label>
-                <input asp-for="Predictions.WhenComplete" class="form-control" />
-                <span asp-validation-for="Predictions.WhenComplete" class="text-danger"></span>
-            </div>
+            </div> -->
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

@@ -10,6 +10,20 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+<form>
+    <p>
+        <select asp-for="Filter" asp-items="Model.Completed">
+            <option value="">
+                All
+            </option>
+        </select>
+        <label>
+            Question: 
+            <input type="text" asp-for="SearchString"/>
+        </label>
+        <input type="submit" value="Filter"/>
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
@@ -44,7 +58,7 @@
                 @Html.DisplayFor(modelItem => item.Predictions)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.True)
+                <input type="checkbox" disabled @(item.True == true ? "checked" : "")/>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.WhenComplete)

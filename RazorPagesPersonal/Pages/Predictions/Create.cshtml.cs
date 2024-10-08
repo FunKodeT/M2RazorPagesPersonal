@@ -26,6 +26,7 @@ namespace RazorPagesPersonal.Pages.Predictions
 
         [BindProperty]
         public Prediction Predictions { get; set; } = default!;
+        
 
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
@@ -34,6 +35,8 @@ namespace RazorPagesPersonal.Pages.Predictions
             {
                 return Page();
             }
+            Predictions.Created = DateTime.Now;
+            Predictions.Predictions = Predictions.GetPrediction();
 
             _context.Predictions.Add(Predictions);
             await _context.SaveChangesAsync();

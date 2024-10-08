@@ -14,24 +14,15 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Predictions.Id" />
-            <div class="form-group">
-                <label asp-for="Predictions.Created" class="control-label"></label>
-                <input asp-for="Predictions.Created" class="form-control" />
-                <span asp-validation-for="Predictions.Created" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Predictions.Question" class="control-label"></label>
-                <input asp-for="Predictions.Question" class="form-control" />
-                <span asp-validation-for="Predictions.Question" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Predictions.Predictions" class="control-label"></label>
-                <input asp-for="Predictions.Predictions" class="form-control" />
-                <span asp-validation-for="Predictions.Predictions" class="text-danger"></span>
-            </div>
+            <input type="hidden" asp-for="Predictions.Created" />
+            <input type="hidden" asp-for="Predictions.Question" />
+            <input type="hidden" asp-for="Predictions.Predictions" />
             <div class="form-group">
                 <label asp-for="Predictions.True" class="control-label"></label>
-                <input asp-for="Predictions.True" class="form-control" />
+                <select asp-for="Predictions.True" class="form-control">
+                    <option value=true>Yes</option>
+                    <option value=false>No</option>
+                </select>
                 <span asp-validation-for="Predictions.True" class="text-danger"></span>
             </div>
             <div class="form-group">

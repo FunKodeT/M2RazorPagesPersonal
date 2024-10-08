@@ -34,6 +34,30 @@ namespace RazorPagesPersonal.Models
                         Predictions = "Not Likely",
                         True = false,
                         WhenComplete = DateTime.Parse("2024-10-07")
+                    },
+                    new Prediction
+                    {
+                        Created = DateTime.Parse("2024-10-08"),
+                        Question = "Can I win?",
+                        Predictions = "Ask again.",
+                        True = true,
+                        WhenComplete = DateTime.Parse("2024-10-08")
+                    },
+                    new Prediction
+                    {
+                        Created = DateTime.Parse("2024-10-08"),
+                        Question = "Will this work?",
+                        Predictions = "Certainly.",
+                        True = true,
+                        WhenComplete = DateTime.Parse("2024-10-08")
+                    },
+                    new Prediction
+                    {
+                        Created = DateTime.Parse("2024-10-08"),
+                        Question = "Will it rain today?",
+                        Predictions = "Not likely.",
+                        True = true,
+                        WhenComplete = DateTime.Parse("2024-10-08")
                     }
                 );
                 context.SaveChanges();
