@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|c:\\users\\coote\\documents\\coding\\coursework\\7_tesd1440_c-sharp_programming_i\\m2\\p4\\razorpagespersonal\\pages\\predictions\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|solutionrelative:pages\\predictions\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|c:\\users\\coote\\documents\\coding\\coursework\\7_tesd1440_c-sharp_programming_i\\m2\\p4\\razorpagespersonal\\pages\\predictions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|solutionrelative:pages\\predictions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|c:\\users\\coote\\documents\\coding\\coursework\\7_tesd1440_c-sharp_programming_i\\m2\\p4\\razorpagespersonal\\pages\\predictions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|solutionrelative:pages\\predictions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|c:\\users\\coote\\documents\\coding\\coursework\\7_tesd1440_c-sharp_programming_i\\m2\\p4\\razorpagespersonal\\models\\predictions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|c:\\users\\coote\\documents\\coding\\coursework\\7_tesd1440_c-sharp_programming_i\\m2\\p4\\razorpagespersonal\\pages\\predictions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|solutionrelative:pages\\predictions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|c:\\users\\coote\\documents\\coding\\coursework\\7_tesd1440_c-sharp_programming_i\\m2\\p4\\razorpagespersonal\\pages\\predictions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|solutionrelative:pages\\predictions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|c:\\users\\coote\\documents\\coding\\coursework\\7_tesd1440_c-sharp_programming_i\\m2\\p4\\razorpagespersonal\\pages\\predictions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7ECAD37-D558-446B-8D8F-B0B7FDE37ADB}|RazorPagesPersonal.csproj|solutionrelative:pages\\predictions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Predictions\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Predictions\\Create.cshtml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:41:18.73Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Predictions\\Index.cshtml",
-              "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Predictions\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Predictions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Predictions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T23:07:54.474Z",
+              "WhenOpened": "2024-10-09T21:52:12.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Predictions\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Predictions\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:52:07.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Predictions.cs",
               "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Models\\Predictions.cs",
               "RelativeDocumentMoniker": "Models\\Predictions.cs",
               "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Models\\Predictions.cs",
               "RelativeToolTip": "Models\\Predictions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:03:53.524Z",
+              "WhenOpened": "2024-10-09T21:50:37.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Predictions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Predictions\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:42:31.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Predictions\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Predictions\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:40:29.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Predictions\\Details.cshtml",
+              "ToolTip": "C:\\Users\\coote\\Documents\\Coding\\CourseWork\\7_TESD1440_C-Sharp_Programming_I\\M2\\P4\\RazorPagesPersonal\\Pages\\Predictions\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Predictions\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:38:55.51Z",
               "EditorCaption": ""
             }
           ]

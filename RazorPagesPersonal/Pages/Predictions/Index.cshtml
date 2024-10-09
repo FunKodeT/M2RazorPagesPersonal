@@ -5,10 +5,14 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="border-bottom border-white d-flex justify-content-center text-white fw-bold fst-italic">Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a class="btn btn-primary" asp-page="Create">
+        <strong><em>
+            Create New
+        </em></strong>
+    </a>
 </p>
 <form>
     <p>
@@ -25,7 +29,7 @@
     </p>
 </form>
 <table class="table">
-    <thead>
+    <thead class="border-2 border-white bg-black text-white">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Predictions[0].Created)
@@ -45,7 +49,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="border-2 border-white-50 bg-dark text-white-50">
 @foreach (var item in Model.Predictions) {
         <tr>
             <td>
@@ -63,10 +67,18 @@
             <td>
                 @Html.DisplayFor(modelItem => item.WhenComplete)
             </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            <td class="d-flex justify-content-evenly align-content-center border-1 border-white">
+                <button class="btn btn-primary">
+                    <a class="text-decoration-none text-white" asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                </button>
+                    |
+                <button class="btn btn-info">
+                    <a class="text-decoration-none text-white" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                </button>
+                    |
+                <button class="btn btn-danger">
+                    <a class="text-decoration-none text-white" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                </button>
             </td>
         </tr>
 }

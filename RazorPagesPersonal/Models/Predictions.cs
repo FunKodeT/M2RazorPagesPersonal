@@ -10,18 +10,19 @@ namespace RazorPagesPersonal.Models
     {
         public int Id { get; set; }
 
-        [Display(Name = "Created On"), DataType(DataType.Date)]
+        [Display(Name = "Created On:"), DataType(DataType.Date)]
         public DateTime? Created { get; set; }
         
+        [Display(Name = "Question:")]
         public string? Question { get; set; }
 
-        [Display(Name = "Prediction")]
+        [Display(Name = "Prediction:")]
         public string? Predictions {  get; set; }
 
-        [Display(Name = "True?")]
+        [Display(Name = "True:")]
         public bool? True { get; set; }
 
-        [Display(Name = "Completed Date"), DataType(DataType.Date)]
+        [Display(Name = "Completed Date:"), DataType(DataType.Date)]
         public DateTime? WhenComplete { get; set; }
 
         public string GetPrediction()

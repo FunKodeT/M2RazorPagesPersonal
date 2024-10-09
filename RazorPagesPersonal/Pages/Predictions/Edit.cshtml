@@ -5,11 +5,11 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1 class="border-bottom border-white d-flex justify-content-center text-white fw-bold fst-italic">Edit</h1>
 
-<h4>Predictions</h4>
-<hr />
-<div class="row">
+<h4 class="text-white-50 fw-bold fst-italic">Predictions</h4>
+<hr class="text-white"/>
+<div>
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -18,7 +18,7 @@
             <input type="hidden" asp-for="Predictions.Question" />
             <input type="hidden" asp-for="Predictions.Predictions" />
             <div class="form-group">
-                <label asp-for="Predictions.True" class="control-label"></label>
+                <label class="text-white-50 fw-bold fst-italic mb-1" asp-for="Predictions.True" class="control-label"></label>
                 <select asp-for="Predictions.True" class="form-control">
                     <option value=true>Yes</option>
                     <option value=false>No</option>
@@ -26,19 +26,18 @@
                 <span asp-validation-for="Predictions.True" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Predictions.WhenComplete" class="control-label"></label>
+                <label class="text-white-50 fw-bold fst-italic mb-1" asp-for="Predictions.WhenComplete" class="control-label"></label>
                 <input asp-for="Predictions.WhenComplete" class="form-control" />
                 <span asp-validation-for="Predictions.WhenComplete" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-3 mb-4">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-page="./Index">Back to List</a>
+<div class="d-flex justify-content-evenly align-content-center border-top border-white">
+    <a class="mt-4 btn btn-outline-primary" asp-page="./Index">Back to List</a>
 </div>
 
 @section Scripts {
